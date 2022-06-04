@@ -1,47 +1,47 @@
 # awesome-r-dataviz <img src="https://raw.githubusercontent.com/krzjoa/awesome-r-dataviz/master/logo/logo.png" align="right" height="139" />
 
-> Curated resources for Data Visualization, Drawing & Publishing in R.
+> Curadoria de recursos sobre visualização de dados, manipulação de gráficos e publicações em R.
 
 ## ggplot
 
-### Additional Plot Types
-* [ggrgl](https://github.com/coolbutuseless/ggrgl) - 3d extension to ggplot.
-* [waffle](https://github.com/hrbrmstr/waffle) - Make waffle (square pie) charts in R.
-* [ggridges](https://github.com/clauswilke/ggridges) - Geoms to make ridgeline plots with ggplot2.
-* [ggchicklet](https://github.com/hrbrmstr/ggchicklet) - Create Chicklet (Rounded Segmented Column) Charts.
-* [ggdendro](https://github.com/andrie/ggdendro) - Tools to extract dendrogram plot data for use with ggplot.
-* [ggcorrplot](https://github.com/kassambara/ggcorrplot) - Visualization of a correlation matrix using ggplot2. [[Tutorial]](http://www.sthda.com/english/wiki/ggcorrplot-visualization-of-a-correlation-matrix-using-ggplot2)
-* [corrgram](https://github.com/kwstat/corrgram) -  A simple way to create correlograms from raw data or a correlation matrix.
-* [ggradar](https://github.com/ricardo-bion/ggradar) - Radar charts with ggplot2 .
-* [ggparty](https://github.com/martin-borkovec/ggparty) - ggplot2 visualizations for the [partykit](http://partykit.r-forge.r-project.org/partykit/) package.
-* [ggmosaic](https://github.com/haleyjeppson/ggmosaic) - Mosaicplots in the ggplot2 framework.
-* [ggbeeswarm](https://github.com/eclarke/ggbeeswarm) - Column scatter / beeswarm-style plots in ggplot2.
-* [ggvoronoi](https://github.com/garretrc/ggvoronoi) - Easy Voronoi diagram heatmaps with ggplot2.
-* [ggTimeSeries](https://github.com/shrektan/ggTimeSeries) - Taking time series visualisations beyond line charts.
-* [ggupset](https://github.com/const-ae/ggupset) - Combination matrix axis for 'ggplot2' to create 'UpSet' plots.
-* [UpSetR](https://github.com/hms-dbmi/UpSetR) - An R implementation of the UpSet set visualization technique published by Lex, Gehlenborg, et al.
-* [complex-upset](https://github.com/krassowski/complex-upset) - A library for creating complex UpSet plots with ggplot2 geoms.
-* [patternplot](https://cran.rstudio.com/web/packages/patternplot/index.html) -  Versatile Pie Charts, Bar Charts and Box Plots using Patterns, Colors and Images. [[Vignette]](https://cran.rstudio.com/web/packages/patternplot/vignettes/patternplot-intro.html)
-* [ggstance](https://github.com/lionel-/ggstance) - Horizontal ggplot2 components.
-* [ggthreed](https://github.com/coolbutuseless/ggthreed) - 3d geoms and stats for ggplot.
-* [gggibbous](https://github.com/mnbram/gggibbous) - Moon charts, a pie chart alternative, for ggplot2.
-* [ggweekly](https://github.com/gadenbuie/ggweekly) - Easy, printable, custom calendars and week planners.
-* [gghdr](https://github.com/ropenscilabs/gghdr) -  Tools for plotting highest density regions in the ggplot2.
-* [ggpointdensity](https://github.com/LKremer/ggpointdensity) - Cross Between a Scatter Plot and a 2D Density Plot.
-* [ggstraw](https://github.com/nacnudus/ggstraw) - geom_straw for ggplot2.
-* [ggVennDiagram](https://github.com/gaospecial/ggVennDiagram) - A 'ggplot2' implement of Venn Diagram.
-* [ggblur](https://github.com/coolbutuseless/ggblur) - Blurry Point Geom for ggplot2.
-* [ggbump](https://github.com/davidsjoberg/ggbump) - A geom for ggplot to create bump plots.
-* [marginsplot](https://github.com/vincentarelbundock/marginsplot) - plot marginal effects and predicted values using the `margins` and `ggplot2`.
-* [ggimg](https://github.com/statsmaths/ggimg) - The Missing Image Primative for ggplot2.
-* [ggpattern](https://github.com/coolbutuseless/ggpattern/) - ggplot geoms with pattern fills.
-* [ggfreehand](https://github.com/dgrtwo/ggfreehand) - Add freehand circles to ggplot2 graphs.
-* [ganttrify](https://github.com/giocomai/ganttrify) - Create beautiful Gantt charts with ggplot2.
-* [ggstream](https://github.com/davidsjoberg/ggstream) - A package to make streamplots.
-* [bulletchartr](https://github.com/ACDIVOCATech/bulletchartr) - Builds bullet charts suitable for tracking KPIs.
-* [treemapify](https://github.com/wilkox/treemapify) - Draw treemaps in ggplot2.
-* [ggborderline](https://github.com/wurli/ggborderline) - Make line plots that *pop*.
-* [ggbraid](https://github.com/nsgrantham/ggbraid) - Braid two lines and a ribbon in ggplot2.
+### Outros tipos de gráficos
+* [ggrgl](https://github.com/coolbutuseless/ggrgl) - Extensão para gráficos em 3d.
+* [waffle](https://github.com/hrbrmstr/waffle) - Waffle charts ("pizzas quadradas") em R.
+* [ggridges](https://github.com/clauswilke/ggridges) - Geoms para produzir Ridgeline Plots.
+* [ggchicklet](https://github.com/hrbrmstr/ggchicklet) - Geoms para produzir Chicklet Charts (colunas segmentadas com bordas arredondadas).
+* [ggdendro](https://github.com/andrie/ggdendro) - Ferramentas para extrair/manipular dados para produção de dendrogramas com ggplot.
+* [ggcorrplot](https://github.com/kassambara/ggcorrplot) - Visualização de matrizes de correlação utilizando ggplot2. [[Tutorial]](http://www.sthda.com/english/wiki/ggcorrplot-visualization-of-a-correlation-matrix-using-ggplot2)
+* [corrgram](https://github.com/kwstat/corrgram) -  Uma maneira simples de criar correlogramas diretamento dos dados ou de uma matriz de correlação.
+* [ggradar](https://github.com/ricardo-bion/ggradar) - Radar charts com ggplot2.
+* [ggparty](https://github.com/martin-borkovec/ggparty) - Visualizações no ggplot2 para o pacote [partykit](http://partykit.r-forge.r-project.org/partykit/).
+* [ggmosaic](https://github.com/haleyjeppson/ggmosaic) - Mosaicplots para o ggplot2.
+* [ggbeeswarm](https://github.com/eclarke/ggbeeswarm) - Gráficos beeswarm ou de dispersão (scatter) em colunas no ggplot2.
+* [ggvoronoi](https://github.com/garretrc/ggvoronoi) - Maneira simples de criar diagramas de calor Voronoi com ggplot2.
+* [ggTimeSeries](https://github.com/shrektan/ggTimeSeries) - Visualização de séries temporais além dos gráficos de linha.
+* [ggupset](https://github.com/const-ae/ggupset) - Crie eixos de matrizes de combinação para 'ggplot2' criar gráficos 'UpSet'.
+* [UpSetR](https://github.com/hms-dbmi/UpSetR) - Implementação em R da técnica de visualização UpSet publicada por Lex, Gehlenborg e colaboradores.
+* [complex-upset](https://github.com/krassowski/complex-upset) - Uma biblioteca para criar gráficos UpSet complexos com geoms do ggplot2.
+* [patternplot](https://cran.rstudio.com/web/packages/patternplot/index.html) -  Crie Gráficos de Pizza, de Barras e Box Plots usando Padrões, Cores e Imagens. [[Vignette]](https://cran.rstudio.com/web/packages/patternplot/vignettes/patternplot-intro.html)
+* [ggstance](https://github.com/lionel-/ggstance) - Componentes Horizontais para ggplot2.
+* [ggthreed](https://github.com/coolbutuseless/ggthreed) - Geoms e Stats 3D para ggplot.
+* [gggibbous](https://github.com/mnbram/gggibbous) - Moon charts, uma alternativa ao gráfico de pizza, para ggplot2.
+* [ggweekly](https://github.com/gadenbuie/ggweekly) - Calendários e planejadores semanais, simples e prontos para impressão.
+* [gghdr](https://github.com/ropenscilabs/gghdr) - Ferramentas para plotar regiões de mais alta densidade em ggplot2.
+* [ggpointdensity](https://github.com/LKremer/ggpointdensity) - Cruzamento entre gráficos de dispersão e gráficos de densidade 2D.
+* [ggstraw](https://github.com/nacnudus/ggstraw) - geom_straw para ggplot2.
+* [ggVennDiagram](https://github.com/gaospecial/ggVennDiagram) - Uma implementação dos Diagramas de Venn para 'ggplot2'.
+* [ggblur](https://github.com/coolbutuseless/ggblur) - Geom para Ponto Desfocado (Blurry Point) para ggplot2.
+* [ggbump](https://github.com/davidsjoberg/ggbump) - Geom para criar bump plots.
+* [marginsplot](https://github.com/vincentarelbundock/marginsplot) - Faça gráficos sobre efeitos marginais e valores preditos utilizando `margins` e `ggplot2`.
+* [ggimg](https://github.com/statsmaths/ggimg) - Funções primitivas para lidar com imagens no ggplot2.
+* [ggpattern](https://github.com/coolbutuseless/ggpattern/) - Geoms com preenchimento de padrões.
+* [ggfreehand](https://github.com/dgrtwo/ggfreehand) - Adicione círculos feitos "a mão" nos gráficos do ggplot2
+* [ganttrify](https://github.com/giocomai/ganttrify) - Crie belos gráficos de Gantt com ggplot2.
+* [ggstream](https://github.com/davidsjoberg/ggstream) - Um pacote para criar streamplots.
+* [bulletchartr](https://github.com/ACDIVOCATech/bulletchartr) - Cria gráficos tipo bullet charts, ideal para manterem tracking nos KPIs.
+* [treemapify](https://github.com/wilkox/treemapify) - Crie treemaps no ggplot2.
+* [ggborderline](https://github.com/wurli/ggborderline) - Crie gráficos de linha que saltam aos olhos.
+* [ggbraid](https://github.com/nsgrantham/ggbraid) - Junte duas linhas e uma ribbon no ggplot2.
 
 ### Themes
 * [ggthemr](https://github.com/cttobin/ggthemr) - Themes for ggplot2.
