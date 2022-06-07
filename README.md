@@ -5,21 +5,21 @@
 ## ggplot
 
 ### Outros tipos de gráficos
-* [ggrgl](https://github.com/coolbutuseless/ggrgl) - Extensão para gráficos em 3d.
+* [ggrgl](https://github.com/coolbutuseless/ggrgl) - Extensão para gráficos em 3d em ggplot.
 * [waffle](https://github.com/hrbrmstr/waffle) - Waffle charts ("pizzas quadradas") em R.
-* [ggridges](https://github.com/clauswilke/ggridges) - Geoms para produzir Ridgeline Plots.
+* [ggridges](https://github.com/clauswilke/ggridges) - Geoms para produzir Ridgeline Plots (gráficos de distribuição, assemelha a uma "cadeia montanhosa").
 * [ggchicklet](https://github.com/hrbrmstr/ggchicklet) - Geoms para produzir Chicklet Charts (colunas segmentadas com bordas arredondadas).
 * [ggdendro](https://github.com/andrie/ggdendro) - Ferramentas para extrair/manipular dados para produção de dendrogramas com ggplot.
 * [ggcorrplot](https://github.com/kassambara/ggcorrplot) - Visualização de matrizes de correlação utilizando ggplot2. [[Tutorial]](http://www.sthda.com/english/wiki/ggcorrplot-visualization-of-a-correlation-matrix-using-ggplot2)
-* [corrgram](https://github.com/kwstat/corrgram) -  Uma maneira simples de criar correlogramas diretamento dos dados ou de uma matriz de correlação.
+* [corrgram](https://github.com/kwstat/corrgram) -  Uma maneira simples de criar correlogramas diretamente dos dados ou de uma matriz de correlação.
 * [ggradar](https://github.com/ricardo-bion/ggradar) - Radar charts com ggplot2.
 * [ggparty](https://github.com/martin-borkovec/ggparty) - Visualizações no ggplot2 para o pacote [partykit](http://partykit.r-forge.r-project.org/partykit/).
 * [ggmosaic](https://github.com/haleyjeppson/ggmosaic) - Mosaicplots para o ggplot2.
-* [ggbeeswarm](https://github.com/eclarke/ggbeeswarm) - Gráficos beeswarm ou de dispersão (scatter) em colunas no ggplot2.
-* [ggvoronoi](https://github.com/garretrc/ggvoronoi) - Maneira simples de criar diagramas de calor Voronoi com ggplot2.
+* [ggbeeswarm](https://github.com/eclarke/ggbeeswarm) - Gráficos beeswarm ou de dispersão (scatter) com pequeno deslocamento aleatório (jitter) em colunas no ggplot2.
+* [ggvoronoi](https://github.com/garretrc/ggvoronoi) - Maneira simples de criar mapas de calor Voronoi com ggplot2.
 * [ggTimeSeries](https://github.com/shrektan/ggTimeSeries) - Visualização de séries temporais além dos gráficos de linha.
 * [ggupset](https://github.com/const-ae/ggupset) - Crie eixos de matrizes de combinação para 'ggplot2' criar gráficos 'UpSet'.
-* [UpSetR](https://github.com/hms-dbmi/UpSetR) - Implementação em R da técnica de visualização UpSet publicada por Lex, Gehlenborg e colaboradores.
+* [UpSetR](https://github.com/hms-dbmi/UpSetR) - Implementação em R da técnica de visualização UpSet (visualização de conjuntos para além dos diagramas de Venn) publicada por Lex, Gehlenborg e colaboradores.
 * [complex-upset](https://github.com/krassowski/complex-upset) - Uma biblioteca para criar gráficos UpSet complexos com geoms do ggplot2.
 * [patternplot](https://cran.rstudio.com/web/packages/patternplot/index.html) -  Crie Gráficos de Pizza, de Barras e Box Plots usando Padrões, Cores e Imagens. [[Vignette]](https://cran.rstudio.com/web/packages/patternplot/vignettes/patternplot-intro.html)
 * [ggstance](https://github.com/lionel-/ggstance) - Componentes Horizontais para ggplot2.
@@ -34,28 +34,28 @@
 * [ggbump](https://github.com/davidsjoberg/ggbump) - Geom para criar bump plots.
 * [marginsplot](https://github.com/vincentarelbundock/marginsplot) - Faça gráficos sobre efeitos marginais e valores preditos utilizando `margins` e `ggplot2`.
 * [ggimg](https://github.com/statsmaths/ggimg) - Funções primitivas para lidar com imagens no ggplot2.
-* [ggpattern](https://github.com/coolbutuseless/ggpattern/) - Geoms com preenchimento de padrões.
+* [ggpattern](https://github.com/coolbutuseless/ggpattern/) - Geoms com preenchimento de padrões, imagens, etc.
 * [ggfreehand](https://github.com/dgrtwo/ggfreehand) - Adicione círculos feitos "a mão" nos gráficos do ggplot2
 * [ganttrify](https://github.com/giocomai/ganttrify) - Crie belos gráficos de Gantt com ggplot2.
 * [ggstream](https://github.com/davidsjoberg/ggstream) - Um pacote para criar streamplots.
-* [bulletchartr](https://github.com/ACDIVOCATech/bulletchartr) - Cria gráficos tipo bullet charts, ideal para manterem tracking nos KPIs.
+* [bulletchartr](https://github.com/ACDIVOCATech/bulletchartr) - Cria gráficos tipo bullet charts, ideal para acompanhar KPIs.
 * [treemapify](https://github.com/wilkox/treemapify) - Crie treemaps no ggplot2.
 * [ggborderline](https://github.com/wurli/ggborderline) - Crie gráficos de linha que saltam aos olhos.
 * [ggbraid](https://github.com/nsgrantham/ggbraid) - Junte duas linhas e uma ribbon no ggplot2.
 
 ### Themes
-* [ggthemr](https://github.com/cttobin/ggthemr) - Themes for ggplot2.
-* [ggthemes](https://github.com/jrnold/ggthemes) - Additional themes, scales, and geoms for ggplot2.
-* [ggpomological](https://github.com/gadenbuie/ggpomological) - Pomological plot theme for ggplot2 .
-* [ggtech](https://github.com/ricardo-bion/ggtech) - ggplot2 tech themes, scales, and geoms .
-* [hrbrthemes](https://github.com/hrbrmstr/hrbrthemes) - Opinionated, typographic-centric ggplot2 themes and theme components.
-* [vapoRwave](https://github.com/moldach/vapoRwave) - Vaporwave themes and color palettes for ggplot2.
-* [tvthemes](https://github.com/Ryo-N7/tvthemes) - ggplot2 themes and palettes based on your favorite TV shows.
-* [Rokemon](https://github.com/schochastics/Rokemon) - Pokemon themed R package.
-* [visibly](https://github.com/m-clark/visibly) - Functions related to R visualizations.
-* [xkcd](http://xkcd.r-forge.r-project.org/) - Graphs using the XKCD style (a webcomic of romance, sarcasm, math, and language). [[Tutorial]](https://github.com/cran/xkcd/blob/master/inst/doc/xkcd-intro.pdf)
-* [ggrough](https://github.com/xvrdm/ggrough) - Convert ggplot2 chart to roughjs.
-* [ggCorpIdent](https://github.com/INWTlab/ggCorpIdent) - A package for ggplot2 graphics in corporate design with custom fonts, colors and logo. [[Tutorial]](https://www.inwt-statistics.com/read-blog/ggcorpident.html)
+* [ggthemr](https://github.com/cttobin/ggthemr) - Temas para ggplot2.
+* [ggthemes](https://github.com/jrnold/ggthemes) - Mais temas, scales, e geoms para ggplot2.
+* [ggpomological](https://github.com/gadenbuie/ggpomological) - Tema Pomological (water colors) para ggplot2.
+* [ggtech](https://github.com/ricardo-bion/ggtech) - Temas, scales, e geoms com estética tecnológica para ggplot2.
+* [hrbrthemes](https://github.com/hrbrmstr/hrbrthemes) - Temas e seus componentes centrados em tipografia para ggplot2.
+* [vapoRwave](https://github.com/moldach/vapoRwave) - Temas e paletas de cores com estética vaporwave para ggplot2.
+* [tvthemes](https://github.com/Ryo-N7/tvthemes) - Temas e paletas para ggplot2 baseados em programas de TV.
+* [Rokemon](https://github.com/schochastics/Rokemon) - Pacote tematizado em torno de Pokémon.
+* [visibly](https://github.com/m-clark/visibly) - Funções associadas a visualizações em R.
+* [xkcd](http://xkcd.r-forge.r-project.org/) - Gráficos usando o estilo do XKCD (webcomic sobre romance, sarcasmo, matemática e linguagem. [[Tutorial]](https://github.com/cran/xkcd/blob/master/inst/doc/xkcd-intro.pdf)
+* [ggrough](https://github.com/xvrdm/ggrough) - Converte gráficos em ggplot2 para roughjs.
+* [ggCorpIdent](https://github.com/INWTlab/ggCorpIdent) - Um pacote em ggplot2 para Design Corporativo com fontes, cores e logo customizadas. [[Tutorial]](https://www.inwt-statistics.com/read-blog/ggcorpident.html)
 
 ### Palettes 🎨
 * [paletteer](https://github.com/EmilHvitfeldt/paletteer) - Collection of most color palettes in a single R package.
